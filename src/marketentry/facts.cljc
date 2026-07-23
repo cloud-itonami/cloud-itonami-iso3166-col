@@ -11,13 +11,7 @@
           :rep-provenance "https://www.colombiacompra.gov.co/"
           :corporate-number-owner-authority "DIAN / RUES"
           :corporate-number-legal-basis "NIT"
-          :corporate-number-provenance "https://www.dian.gov.co/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "BRA" {:name "Brazil" :owner-authority "Compras.gov.br" :legal-basis "Lei 14.133/2021" :national-spec "Compras.gov.br" :provenance "https://www.gov.br/compras/"
-          :required-evidence ["CNPJ record" "Compras.gov.br registration" "SICAF record" "Authorized-representative record"]}
-   "MEX" {:name "Mexico" :owner-authority "CompraNet" :legal-basis "LAASSP" :national-spec "CompraNet" :provenance "https://compranet.hacienda.gob.mx/"
-          :required-evidence ["RFC record" "CompraNet registration" "RFC extract" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.dian.gov.co/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
